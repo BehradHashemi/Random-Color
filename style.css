@@ -1,0 +1,15 @@
+body {
+    background: #212121;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+span {
+    color: #8a2be2;
+}
