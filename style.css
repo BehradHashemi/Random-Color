@@ -6,10 +6,24 @@ body {
     align-items: center;
 }
 
-h1 {
-    color: #fff;
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8)
+    0 0 10px rgba(0, 0, 0, 0.8);
 }
 
-span {
-    color: #8a2be2;
+.btn:active {
+    outline: none;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    box-shadow: none;
 }
